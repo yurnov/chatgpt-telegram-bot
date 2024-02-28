@@ -205,16 +205,10 @@ docker compose up
 ```
 
 #### Ready-to-use Docker images
-You can also use the Docker image from [Docker Hub](https://hub.docker.com/r/n3d1117/chatgpt-telegram-bot):
-```shell
-docker pull n3d1117/chatgpt-telegram-bot:latest
-docker run -it --env-file .env n3d1117/chatgpt-telegram-bot
-```
-
-or using the [GitHub Container Registry](https://github.com/n3d1117/chatgpt-telegram-bot/pkgs/container/chatgpt-telegram-bot/):
+You can also use the Docker image from [GitHub Container Registry](https://github.com/yurnov/chatgpt-telegram-bot/pkgs/container/chatgpt-telegram-bot/):
 
 ```shell
-docker pull ghcr.io/n3d1117/chatgpt-telegram-bot:latest
+docker pull ghcr.io/yurnov/chatgpt-telegram-bot:latest
 docker run -it --env-file .env ghcr.io/n3d1117/chatgpt-telegram-bot
 ```
 
